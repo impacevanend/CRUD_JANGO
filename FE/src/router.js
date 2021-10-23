@@ -4,6 +4,7 @@ import LogIn from './components/LogIn.vue'
 import SignUp from './components/SignUp.vue'
 import Home from './components/Home.vue'
 import Account from './components/Account.vue'
+import Prueba from './components/Prueba.vue'
 
 const routes = [{
   path: '/',
@@ -29,6 +30,11 @@ const routes = [{
   path: '/user/account',
   name: "account",
   component: Account
+  },
+  {
+  path: '/user/prueba',
+  name: "prueba",
+  component: Prueba
   }
 ];
 const router = createRouter({
